@@ -3,177 +3,1013 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Panneau LED PL-26 | Éclairage Pro</title>
+  <title>Panneau LED PL-26 | Lumière Professionnelle pour Photo, Vidéo, TikTok & Création de Contenu</title>
+  <meta name="description" content="Panneau LED PL-26 pour photo, vidéo, TikTok, Reels et shooting produit. Lumière réglable blanc & jaune, format compact, alimentation DC 5V, idéal pour créateurs de contenu et e-commerce." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://yourdomain.com" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Panneau LED PL-26 | Lumière Professionnelle pour Créateurs" />
+  <meta property="og:description" content="Panneau LED PL-26 pour photo, vidéo, TikTok, Reels et shooting produit. Lumière blanc & jaune réglable, format compact, idéal pour créateurs de contenu." />
+   <meta property="og:image" content="tgp-20260515-141017-RejMeeBG.webp" />
+  <meta property="og:url" content="https://yourdomain.com" />
+  <meta property="og:type" content="product" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Panneau LED PL-26 | Lumière Professionnelle pour Créateurs" />
+  <meta name="twitter:description" content="Panneau LED PL-26 pour photo, vidéo, TikTok, Reels et shooting produit. Idéal pour créateurs de contenu et e-commerce." />
+   <meta name="twitter:image" content="tgp-20260515-141017-RejMeeBG.webp" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Segoe UI', sans-serif; background: #0a0a0a; color: #fff; }
-    .hero { background: linear-gradient(135deg, #1a1a2e, #16213e); padding: 60px 20px; text-align: center; }
-    .hero h1 { font-size: 2.4rem; font-weight: 800; margin-bottom: 12px; }
-    .hero h1 span { color: #f0c040; }
-    .hero p { font-size: 1.1rem; color: #ccc; max-width: 560px; margin: 0 auto 24px; }
-    .badge-row { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-bottom: 32px; }
-    .badge { background: #ffffff15; border: 1px solid #ffffff25; padding: 8px 16px; border-radius: 999px; font-size: 0.85rem; }
-    .price-block { margin-bottom: 32px; }
-    .price-old { text-decoration: line-through; color: #888; font-size: 1rem; }
-    .price-new { font-size: 2.8rem; font-weight: 900; color: #f0c040; }
-    .price-sub { font-size: 0.9rem; color: #aaa; }
-    .trust-bar { display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; background: #111; padding: 16px 20px; }
-    .trust-bar span { font-size: 0.85rem; color: #ccc; }
-    .trust-bar span b { color: #f0c040; }
-    section { padding: 50px 20px; max-width: 700px; margin: 0 auto; }
-    h2 { font-size: 1.6rem; margin-bottom: 20px; text-align: center; }
-    .features { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-    .feature { background: #111; border: 1px solid #222; border-radius: 12px; padding: 20px; }
-    .feature .icon { font-size: 1.8rem; margin-bottom: 8px; }
-    .feature h3 { font-size: 1rem; margin-bottom: 4px; }
-    .feature p { font-size: 0.85rem; color: #aaa; }
-    .order-section { background: #111; border: 1px solid #222; border-radius: 16px; padding: 32px; }
-    .order-section h2 { color: #f0c040; margin-bottom: 24px; }
-    .form-group { margin-bottom: 16px; }
-    .form-group label { display: block; font-size: 0.85rem; color: #aaa; margin-bottom: 6px; }
-    .form-group input { width: 100%; background: #1a1a1a; border: 1px solid #333; border-radius: 8px; padding: 12px 16px; color: #fff; font-size: 1rem; }
-    .form-group input:focus { outline: none; border-color: #f0c040; }
-    .btn { width: 100%; background: #f0c040; color: #000; font-size: 1.1rem; font-weight: 800; padding: 16px; border: none; border-radius: 10px; cursor: pointer; margin-top: 8px; }
-    .btn:hover { background: #ffd060; }
-    .btn:disabled { background: #555; color: #999; cursor: not-allowed; }
-    .success-msg { display: none; background: #0f5132; border: 1px solid #198754; border-radius: 10px; padding: 16px; text-align: center; margin-top: 16px; color: #75b798; }
-    .error-msg { display: none; background: #4a1010; border: 1px solid #dc3545; border-radius: 10px; padding: 16px; text-align: center; margin-top: 16px; color: #f1aeb5; }
-    .faq { margin-top: 40px; }
-    .faq-item { border-bottom: 1px solid #222; padding: 16px 0; }
-    .faq-item h4 { font-size: 1rem; margin-bottom: 6px; color: #f0c040; }
-    .faq-item p { font-size: 0.9rem; color: #aaa; }
-    .whatsapp-btn { display: block; text-align: center; background: #25d366; color: #fff; padding: 14px; border-radius: 10px; text-decoration: none; font-weight: 700; margin-top: 16px; font-size: 1rem; }
-    @media (max-width: 500px) { .features { grid-template-columns: 1fr; } .hero h1 { font-size: 1.8rem; } }
+    /* ===== RESET & BASE ===== */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    img { max-width: 100%; display: block; }
+    a { text-decoration: none; color: inherit; }
+    button { cursor: pointer; font-family: inherit; border: none; background: none; }
+    input, textarea { font-family: inherit; }
+
+    :root {
+      --bg-primary: #fafaf9;
+      --bg-secondary: #f5f5f4;
+      --bg-card: #ffffff;
+      --bg-card-hover: #f5f5f4;
+      --accent: #3b82f6;
+      --accent-light: #60a5fa;
+      --accent-dark: #2563eb;
+      --accent-glow: rgba(59, 130, 246, 0.12);
+      --text-primary: #1c1917;
+      --text-secondary: #57534e;
+      --text-muted: #a8a29e;
+      --border: rgba(0, 0, 0, 0.06);
+      --border-light: rgba(0, 0, 0, 0.1);
+      --gradient-main: linear-gradient(135deg, #fafaf9 0%, #f5f5f4 40%, #fefefe 100%);
+      --gradient-accent: linear-gradient(135deg, #3b82f6, #60a5fa);
+      --gradient-card: linear-gradient(180deg, rgba(59,130,246,0.04) 0%, rgba(59,130,246,0.01) 100%);
+      --shadow-card: 0 4px 24px rgba(0,0,0,0.06);
+      --shadow-glow: 0 0 40px rgba(59,130,246,0.06);
+      --radius: 16px;
+      --radius-sm: 10px;
+      --radius-lg: 24px;
+      --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      --max-width: 1200px;
+    }
+
+    /* ===== LOADER ===== */
+    .loader {
+      position: fixed; inset: 0; z-index: 99999;
+      background: var(--bg-primary);
+      display: flex; align-items: center; justify-content: center;
+      transition: opacity 0.6s ease, visibility 0.6s ease;
+    }
+    .loader.hidden { opacity: 0; visibility: hidden; }
+    .loader-spinner {
+      width: 48px; height: 48px; border-radius: 50%;
+      border: 3px solid var(--border); border-top-color: var(--accent);
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ===== UTILITY ===== */
+    .container { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
+    .section { padding: 60px 0; position: relative; }
+    .section-label {
+      display: inline-block; font-size: 0.7rem; font-weight: 600; letter-spacing: 2px;
+      text-transform: uppercase; color: var(--accent); margin-bottom: 10px;
+    }
+    .section-title {
+      font-size: 1.6rem; font-weight: 800;
+      margin-bottom: 12px; line-height: 1.2;
+    }
+    .section-sub {
+      font-size: 0.9rem; color: var(--text-secondary); max-width: 600px; line-height: 1.7;
+    }
+    .text-center { text-align: center; }
+    .mx-auto { margin-left: auto; margin-right: auto; }
+
+    /* ===== REVEAL ANIMATIONS ===== */
+    .reveal {
+      opacity: 0; transform: translateY(40px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .reveal-delay-1 { transition-delay: 0.1s; }
+    .reveal-delay-2 { transition-delay: 0.2s; }
+    .reveal-delay-3 { transition-delay: 0.3s; }
+    .reveal-delay-4 { transition-delay: 0.4s; }
+
+    /* ===== HEADER / NAV ===== */
+    .header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      padding: 10px 0; transition: var(--transition);
+    }
+    .header.scrolled { background: rgba(250,250,249,0.95); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border); }
+    .header .container { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+    .header-logo { font-size: 1rem; font-weight: 800; display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+    .header-logo svg { width: 22px; height: 22px; }
+    .header-logo span { background: var(--gradient-accent); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .header-cta { display: flex; align-items: center; gap: 10px; }
+    .header-cta a {
+      padding: 8px 16px; background: var(--gradient-accent); border-radius: 50px;
+      font-weight: 600; font-size: 0.75rem; transition: var(--transition);
+      box-shadow: 0 4px 20px var(--accent-glow); white-space: nowrap;
+    }
+    .header-cta a:hover { transform: translateY(-2px); box-shadow: 0 6px 30px var(--accent-glow); }
+    .header-price {
+      font-weight: 700; font-size: 0.95rem; display: flex; align-items: center; gap: 6px;
+    }
+    .header-price .old { font-weight: 400; font-size: 0.8rem; color: var(--text-muted); text-decoration: line-through; }
+    .stock-badge {
+      display: inline-flex; align-items: center; gap: 4px; font-size: 0.65rem; font-weight: 500;
+      color: #22c55e; background: rgba(34,197,94,0.1); border: 1px solid rgba(34,197,94,0.2);
+      padding: 3px 8px; border-radius: 50px;
+    }
+    .stock-badge svg { width: 8px; height: 8px; }
+
+    /* ===== HERO ===== */
+    .hero {
+      min-height: auto; display: flex; align-items: center;
+      background: var(--gradient-main); position: relative; overflow: hidden;
+      padding-top: 80px;
+    }
+    .hero::before {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse 60% 50% at 70% 50%, rgba(59,130,246,0.08) 0%, transparent 70%),
+                  radial-gradient(ellipse 40% 40% at 30% 80%, rgba(96,165,250,0.05) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .hero-grid { display: grid; grid-template-columns: 1fr; gap: 40px; align-items: center; position: relative; z-index: 1; text-align: center; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(59,130,246,0.1); border: 1px solid var(--border-light);
+      padding: 6px 14px; border-radius: 50px; font-size: 0.7rem; font-weight: 500;
+      color: var(--accent-light); margin-bottom: 16px;
+    }
+    .hero-badge svg { width: 14px; height: 14px; }
+    .hero h1 {
+      font-size: 2rem; font-weight: 900;
+      line-height: 1.1; margin-bottom: 16px; letter-spacing: -0.02em;
+    }
+    .hero h1 span { background: var(--gradient-accent); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .hero p {
+      font-size: 0.95rem; color: var(--text-secondary); line-height: 1.7;
+      max-width: 520px; margin-bottom: 24px; margin-left: auto; margin-right: auto;
+    }
+    .hero-benefits {
+      display: flex; flex-direction: column; gap: 10px;
+      margin-bottom: 28px; margin-left: auto; margin-right: auto; max-width: 400px;
+    }
+    .hero-benefit {
+      display: flex; align-items: center; gap: 10px;
+      font-size: 0.88rem; font-weight: 500; color: var(--text-primary);
+    }
+    .hero-benefit svg {
+      width: 18px; height: 18px; color: var(--accent); flex-shrink: 0;
+    }
+    .hero-buttons { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 14px 28px; background: var(--gradient-accent); border-radius: 50px;
+      font-weight: 700; font-size: 0.95rem; transition: var(--transition);
+      box-shadow: 0 4px 24px var(--accent-glow); border: none; color: #fff;
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 40px var(--accent-glow); }
+    .btn-secondary {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 14px 28px; border-radius: 50px; font-weight: 600; font-size: 0.95rem;
+      transition: var(--transition); border: 1px solid var(--border-light); color: var(--text-primary);
+    }
+    .btn-secondary:hover { background: rgba(59,130,246,0.08); border-color: var(--accent); }
+
+    /* Hero Product */
+    .hero-product {
+      position: relative; display: flex; align-items: center; justify-content: center; order: -1;
+    }
+    .hero-product-glow {
+      position: absolute; width: 80%; height: 80%;
+      background: radial-gradient(circle, rgba(59,130,246,0.15) 0%, transparent 70%);
+      animation: pulse-glow 3s ease-in-out infinite;
+    }
+    @keyframes pulse-glow { 0%, 100% { opacity: 0.5; transform: scale(1); } 50% { opacity: 1; transform: scale(1.08); } }
+    .hero-product-frame {
+      position: relative; width: 100%; max-width: 300px; aspect-ratio: 1 / 1;
+      background: linear-gradient(135deg, rgba(59,130,246,0.06), rgba(255,255,255,0.9));
+      border-radius: var(--radius); border: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: center; overflow: hidden;
+      box-shadow: var(--shadow-glow); margin: 0 auto;
+    }
+    .hero-product-frame img { width: 100%; height: 100%; object-fit: cover; }
+    .hero-product-badge {
+      position: absolute; top: 20px; right: 20px;
+      background: var(--gradient-accent); padding: 8px 16px; border-radius: 50px;
+      font-weight: 700; font-size: 0.85rem; box-shadow: 0 4px 20px var(--accent-glow);
+    }
+    .hero-product-dots {
+      position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);
+      display: flex; gap: 8px;
+    }
+    .hero-product-dots span {
+      width: 8px; height: 8px; border-radius: 50%; background: var(--text-muted); transition: var(--transition);
+    }
+    .hero-product-dots span.active { background: var(--accent); width: 24px; border-radius: 4px; }
+
+    /* ===== BENEFITS ===== */
+    .benefits { background: var(--bg-secondary); }
+    .benefits-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 32px; }
+    .benefit-card {
+      background: var(--gradient-card); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 24px 20px; text-align: center; transition: var(--transition);
+    }
+    .benefit-card:hover { background: var(--bg-card-hover); border-color: var(--border-light); transform: translateY(-3px); box-shadow: var(--shadow-glow); }
+    .benefit-icon {
+      width: 52px; height: 52px; border-radius: 14px; margin: 0 auto 16px;
+      background: rgba(59,130,246,0.1); display: flex; align-items: center; justify-content: center;
+      border: 1px solid var(--border-light);
+    }
+    .benefit-icon svg { width: 22px; height: 22px; }
+    .benefit-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 6px; }
+    .benefit-card p { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; }
+
+    /* ===== BEFORE / AFTER ===== */
+    .before-after { background: var(--bg-primary); }
+    .comparison-wrap {
+      position: relative; max-width: 600px; margin: 48px auto 0; border-radius: var(--radius-lg);
+      overflow: hidden; border: 1px solid var(--border); box-shadow: var(--shadow-card);
+      aspect-ratio: 1 / 1;
+    }
+    .comparison-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+    /* ===== FEATURES ===== */
+    .features { background: var(--bg-secondary); }
+    .features-grid { display: grid; grid-template-columns: 1fr; gap: 32px; align-items: center; margin-top: 32px; }
+    .features-image {
+      border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border);
+      background: var(--gradient-card); aspect-ratio: 1 / 1; display: flex; align-items: center; justify-content: center;
+      box-shadow: var(--shadow-glow); max-width: 360px; margin: 0 auto;
+    }
+    .features-image img { width: 100%; height: 100%; object-fit: cover; }
+    .features-list { display: flex; flex-direction: column; gap: 20px; }
+    .feature-item {
+      display: flex; gap: 16px; align-items: flex-start; padding: 20px;
+      border-radius: var(--radius-sm); background: var(--gradient-card); border: 1px solid var(--border);
+      transition: var(--transition);
+    }
+    .feature-item:hover { background: var(--bg-card-hover); border-color: var(--border-light); }
+    .feature-item-icon {
+      width: 44px; height: 44px; min-width: 44px; border-radius: 12px;
+      background: rgba(59,130,246,0.1); display: flex; align-items: center; justify-content: center;
+      border: 1px solid var(--border-light);
+    }
+    .feature-item-icon svg { width: 20px; height: 20px; }
+    .feature-item h4 { font-size: 1rem; font-weight: 600; margin-bottom: 4px; }
+    .feature-item p { font-size: 0.88rem; color: var(--text-secondary); }
+
+    /* ===== GALLERY ===== */
+    .gallery { background: var(--bg-primary); }
+    .gallery-main {
+      position: relative; max-width: 700px; margin: 48px auto 0; border-radius: var(--radius-lg);
+      overflow: hidden; border: 1px solid var(--border); aspect-ratio: 1 / 1;
+      background: var(--bg-card); cursor: zoom-in;
+    }
+    .gallery-main img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease; }
+    .gallery-main:hover img { transform: scale(1.05); }
+    .gallery-nav {
+      display: flex; justify-content: center; gap: 8px; margin-top: 16px; flex-wrap: wrap;
+    }
+    .gallery-nav button {
+      width: 60px; height: 50px; border-radius: var(--radius-sm); overflow: hidden;
+      border: 2px solid var(--border); opacity: 0.6; transition: var(--transition); padding: 0;
+    }
+    .gallery-nav button.active { border-color: var(--accent); opacity: 1; }
+    .gallery-nav button:hover { opacity: 0.9; }
+    .gallery-nav button img { width: 100%; height: 100%; object-fit: cover; }
+    .gallery-arrows {
+      position: absolute; top: 50%; left: 0; right: 0; transform: translateY(-50%);
+      display: flex; justify-content: space-between; padding: 0 16px; pointer-events: none;
+    }
+    .gallery-arrows button {
+      pointer-events: all; width: 44px; height: 44px; border-radius: 50%;
+      background: rgba(0,0,0,0.5); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.15);
+      color: #fff; font-size: 1.2rem; display: flex; align-items: center; justify-content: center;
+      transition: var(--transition);
+    }
+    .gallery-arrows button:hover { background: var(--accent); }
+
+    /* ===== FAQ ===== */
+    .faq { background: var(--bg-primary); }
+    .faq-list { max-width: 740px; margin: 48px auto 0; display: flex; flex-direction: column; gap: 12px; }
+    .faq-item {
+      border: 1px solid var(--border); border-radius: var(--radius-sm); overflow: hidden;
+      background: var(--gradient-card); transition: var(--transition);
+    }
+    .faq-item:hover { border-color: var(--border-light); }
+    .faq-question {
+      width: 100%; padding: 20px 24px; display: flex; justify-content: space-between; align-items: center;
+      font-size: 1rem; font-weight: 600; color: var(--text-primary); text-align: left;
+      transition: var(--transition);
+    }
+    .faq-question:hover { color: var(--accent-light); }
+    .faq-question svg { width: 20px; height: 20px; transition: transform 0.3s ease; color: var(--text-muted); }
+    .faq-item.active .faq-question svg { transform: rotate(180deg); color: var(--accent); }
+    .faq-answer {
+      max-height: 0; overflow: hidden; transition: max-height 0.4s ease, padding 0.4s ease;
+    }
+    .faq-item.active .faq-answer { max-height: 300px; }
+    .faq-answer p { padding: 0 24px 20px; color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; }
+
+    /* ===== ORDER ===== */
+    .order { background: var(--bg-secondary); }
+    .order-wrap {
+      display: grid; grid-template-columns: 1fr; gap: 32px; margin-top: 32px;
+      max-width: 1000px; margin-left: auto; margin-right: auto;
+    }
+    .order-info { display: flex; flex-direction: column; justify-content: center; }
+    .order-info h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 10px; }
+    .order-info p { color: var(--text-secondary); line-height: 1.7; margin-bottom: 20px; }
+    .order-info ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .order-info li { display: flex; align-items: center; gap: 10px; font-size: 0.9rem; }
+    .order-info li svg { width: 18px; height: 18px; color: var(--accent); }
+    .order-form {
+      background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 24px 20px; box-shadow: var(--shadow-card);
+    }
+    .order-form h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 20px; text-align: center; }
+    .form-group { margin-bottom: 14px; }
+    .form-group label { display: block; font-size: 0.8rem; font-weight: 500; margin-bottom: 4px; color: var(--text-secondary); }
+    .form-group input {
+      width: 100%; padding: 14px 14px; border-radius: var(--radius-sm);
+      border: 1px solid var(--border); background: #fefefe;
+      color: var(--text-primary); font-size: 1rem; transition: var(--transition);
+      outline: none;
+    }
+    .form-group input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
+    .form-group input.error { border-color: #ef4444; }
+    .form-group .error-msg { font-size: 0.75rem; color: #ef4444; margin-top: 4px; display: none; }
+    .form-group.error .error-msg { display: block; }
+    .form-row { display: grid; grid-template-columns: 1fr; gap: 14px; }
+    .order-form .btn-primary { width: 100%; justify-content: center; padding: 16px; margin-top: 8px; font-size: 1rem; }
+    .order-form .btn-primary:disabled { opacity: 0.6; cursor: not-allowed; }
+    .order-form .btn-primary .spinner {
+      display: none; width: 20px; height: 20px; border: 2px solid rgba(255,255,255,0.3);
+      border-top-color: #fff; border-radius: 50%; animation: spin 0.6s linear infinite;
+    }
+    .order-form .btn-primary.loading .spinner { display: block; }
+    .order-form .btn-primary.loading .btn-text { display: none; }
+
+    /* Success Message */
+    .success-msg {
+      display: none; text-align: center; padding: 40px;
+    }
+    .success-msg.show { display: block; }
+    .success-msg svg { width: 64px; height: 64px; color: #22c55e; margin-bottom: 20px; }
+    .success-msg h3 { font-size: 1.5rem; font-weight: 700; margin-bottom: 8px; }
+    .success-msg p { color: var(--text-secondary); }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      background: var(--bg-primary); border-top: 1px solid var(--border);
+      padding: 40px 0; text-align: center;
+    }
+    .footer p { color: var(--text-muted); font-size: 0.85rem; }
+    .footer-links { display: flex; justify-content: center; gap: 24px; margin-top: 12px; flex-wrap: wrap; }
+    .footer-links a { color: var(--text-secondary); font-size: 0.85rem; transition: var(--transition); }
+    .footer-links a:hover { color: var(--accent); }
+
+    /* ===== WHATSAPP FLOAT ===== */
+    .wa-float {
+      position: fixed; bottom: 24px; right: 24px; z-index: 999; width: 56px; height: 56px;
+      border-radius: 50%; background: #25d366; display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 20px rgba(37,211,102,0.4); transition: var(--transition);
+      animation: wa-pulse 2s ease-in-out infinite;
+    }
+    .wa-float:hover { transform: scale(1.1); box-shadow: 0 6px 30px rgba(37,211,102,0.5); }
+    .wa-float svg { width: 28px; height: 28px; }
+    @keyframes wa-pulse { 0%, 100% { box-shadow: 0 4px 20px rgba(37,211,102,0.4); } 50% { box-shadow: 0 4px 30px rgba(37,211,102,0.6); } }
+
+    /* ===== STICKY MOBILE CTA ===== */
+    .sticky-cta {
+      display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 998;
+      padding: 12px 16px; background: rgba(250,250,249,0.97); backdrop-filter: blur(20px);
+      border-top: 1px solid var(--border);
+    }
+    .sticky-cta .container { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    .sticky-cta .sticky-price { font-weight: 700; font-size: 1.15rem; }
+    .sticky-cta .sticky-price small { font-weight: 400; font-size: 0.8rem; color: var(--text-muted); }
+    .sticky-cta .btn-primary { padding: 12px 28px; font-size: 0.9rem; white-space: nowrap; }
+
+    .container { padding: 0 16px; }
+    .sticky-cta { display: block; }
+    .wa-float { bottom: 80px; right: 16px; width: 48px; height: 48px; }
+    .wa-float svg { width: 24px; height: 24px; }
+
+    /* ===== MOBILE-FIRST BREAKPOINTS ===== */
+    @media (min-width: 480px) {
+      .container { padding: 0 24px; }
+      .hero-product-frame { max-width: 340px; }
+      .benefits-grid { grid-template-columns: repeat(2, 1fr); }
+      .form-row { grid-template-columns: 1fr 1fr; }
+      .gallery-nav button { width: 70px; height: 54px; }
+    }
+
+    @media (min-width: 640px) {
+      .hero h1 { font-size: 2.4rem; }
+      .section-title { font-size: 1.8rem; }
+      .hero-product-frame { max-width: 380px; }
+      .section { padding: 70px 0; }
+    }
+
+    @media (min-width: 768px) {
+      .hero { min-height: 100vh; padding-top: 80px; }
+      .hero-grid { grid-template-columns: 1fr 1fr; gap: 50px; text-align: left; }
+      .hero h1 { font-size: clamp(2.2rem, 4.5vw, 3.5rem); }
+      .hero p { margin-left: 0; margin-right: 0; }
+      .hero-benefits { margin-left: 0; margin-right: 0; max-width: 440px; }
+      .hero-buttons { justify-content: flex-start; }
+      .hero-stats { justify-content: flex-start; }
+      .hero-product { order: 0; }
+      .benefits-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+      .features-image { max-width: 100%; }
+      .features-grid { gap: 40px; }
+      .order-wrap { grid-template-columns: 1fr 1fr; gap: 40px; }
+      .order-form { padding: 32px; }
+      .section { padding: 80px 0; }
+      .section-title { font-size: 2rem; }
+      .section-sub { font-size: 1rem; }
+      .benefit-card { padding: 28px 24px; }
+      .gallery-nav button { width: 80px; height: 56px; }
+      .sticky-cta { display: none; }
+      .wa-float { bottom: 24px; right: 24px; width: 56px; height: 56px; }
+      .wa-float svg { width: 28px; height: 28px; }
+      .header-cta a { font-size: 0.85rem; padding: 10px 22px; }
+      .header-logo { font-size: 1.2rem; }
+      .comparison-wrap { max-width: 700px; }
+      .header-price { font-size: 1.1rem; }
+      .order-form h3 { font-size: 1.25rem; }
+      .form-group input { font-size: 0.95rem; }
+    }
+
+    @media (min-width: 1024px) {
+      .hero h1 { font-size: clamp(2.5rem, 4vw, 3.8rem); }
+      .benefits-grid { grid-template-columns: repeat(4, 1fr); gap: 24px; }
+      .benefit-card { padding: 32px 26px; }
+      .benefit-icon { width: 60px; height: 60px; }
+      .benefit-icon svg { width: 26px; height: 26px; }
+      .features-grid { grid-template-columns: 1fr 1fr; gap: 50px; }
+      .features-image { order: 0; }
+      .section { padding: 90px 0; }
+      .section-title { font-size: 2.4rem; }
+      .hero-product-frame { max-width: 450px; border-radius: var(--radius-lg); }
+      .order-form { padding: 36px; border-radius: var(--radius-lg); }
+      .order-form h3 { font-size: 1.3rem; }
+      .gallery-nav button { width: 80px; height: 60px; }
+      .form-row { gap: 16px; }
+      .form-group { margin-bottom: 18px; }
+      .order-wrap { gap: 48px; }
+      .hero-stats { gap: 36px; }
+      .hero-stat strong { font-size: 1.4rem; }
+      .comparison-wrap { max-width: 800px; }
+    }
+
+    @media (min-width: 1200px) {
+      .hero h1 { font-size: 4rem; }
+      .section-title { font-size: 2.8rem; }
+      .benefit-card { padding: 36px 28px; }
+    }
+
+    /* Reduced motion for mobile */
+    @media (prefers-reduced-motion: reduce) {
+      .reveal { opacity: 1; transform: none; }
+      .hero-product-glow { animation: none; }
+    }
   </style>
 </head>
 <body>
 
+  <!-- LOADER -->
+  <div class="loader" id="loader">
+    <div class="loader-spinner"></div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header-logo">
+        <svg viewBox="0 0 28 28" fill="none"><rect x="2" y="2" width="24" height="24" rx="6" stroke="url(#lg)" stroke-width="2"/><rect x="7" y="7" width="14" height="14" rx="3" fill="url(#lg)"/><defs><linearGradient id="lg" x1="0" y1="0" x2="28" y2="28"><stop stop-color="#3b82f6"/><stop offset="1" stop-color="#60a5fa"/></linearGradient></defs></svg>
+        Panneau<span>LED</span> PL-26
+      </div>
+      <div class="header-cta">
+        <span class="header-price">
+          <span class="old">169 dh</span> 149 dh
+          <span class="stock-badge">
+            <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="6"/></svg>
+            4 en stock
+          </span>
+        </span>
+        <a href="#order">Commander</a>
+      </div>
+    </div>
+  </header>
+
   <!-- HERO -->
-  <div class="hero">
-    <h2 style="font-size:0.9rem;letter-spacing:3px;color:#f0c040;margin-bottom:12px;">PANNEAU LED PL-26</h2>
-    <h1>Éclairage <span>Pro</span> pour TikTok,<br>Reels & Shooting Produit</h1>
-    <p>Lumière blanche + jaune réglable, alimentation USB, compact pour bureau ou déplacement.</p>
-    <div class="badge-row">
-      <span class="badge">Blanc + Jaune réglables</span>
-      <span class="badge">USB 5V</span>
-      <span class="badge">Compact & léger</span>
-      <span class="badge">Paiement à la livraison</span>
-    </div>
-    <div class="price-block">
-      <div class="price-old">249 Dh</div>
-      <div class="price-new">149 Dh</div>
-      <div class="price-sub">+ Livraison 30 Dh partout au Maroc</div>
-    </div>
-    <a href="#commander" class="btn" style="display:inline-block;max-width:320px;text-decoration:none;">Commander Maintenant</a>
-  </div>
-
-  <!-- TRUST BAR -->
-  <div class="trust-bar">
-    <span>🚚 <b>Livraison partout au Maroc</b></span>
-    <span>💳 <b>Paiement à la livraison</b></span>
-    <span>🔄 <b>7 jours satisfait ou remboursé</b></span>
-    <span>📦 <b>Stock limité</b></span>
-  </div>
-
-  <!-- FEATURES -->
-  <section>
-    <h2>Pourquoi le PL-26 se vend</h2>
-    <div class="features">
-      <div class="feature"><div class="icon">🎨</div><h3>Double température</h3><p>Blanc froid + Blanc chaud, réglables séparément pour chaque situation.</p></div>
-      <div class="feature"><div class="icon">🔌</div><h3>USB universel</h3><p>Se branche sur powerbank, PC, chargeur de téléphone. Pas besoin de prise spéciale.</p></div>
-      <div class="feature"><div class="icon">📐</div><h3>Compact pour bureau</h3><p>Petit format qui tient partout — setup minimal, résultat pro.</p></div>
-      <div class="feature"><div class="icon">📱</div><h3>Parfait pour TikTok</h3><p>Élimine les ombres sur visage et produits, skin plus nette en live.</p></div>
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <svg viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" fill="currentColor" opacity="0.4"/><circle cx="8" cy="8" r="3" fill="currentColor"/></svg>
+            PL-26 · Studio & Création
+          </div>
+          <h1>Éclairage pro compact pour <span>TikTok, shooting produit et vidéos e-commerce</span></h1>
+          <div class="hero-benefits">
+            <div class="hero-benefit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2"/></svg> Blanc + jaune réglables</div>
+            <div class="hero-benefit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg> USB 5V — facile à alimenter</div>
+            <div class="hero-benefit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg> Compact pour bureau ou déplacement</div>
+          </div>
+          <div class="hero-buttons">
+            <a href="#order" class="btn-primary">
+              Commander
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <a href="#features" class="btn-secondary">En savoir plus</a>
+          </div>
+        </div>
+        <div class="hero-product">
+          <div class="hero-product-glow"></div>
+            <div class="hero-product-frame">
+              <img src="tgp-20260515-141017-RejMeeBG.webp" alt="Panneau LED PL-26 - Vue principale" loading="eager" />
+              <div class="hero-product-dots"><span class="active"></span><span></span><span></span></div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- ORDER FORM -->
-  <section id="commander">
-    <div class="order-section">
-      <h2>🛒 Commander Maintenant</h2>
-      <form id="orderForm">
-        <div class="form-group">
-          <label>Nom complet *</label>
-          <input type="text" name="nom" placeholder="Ex: Youssef Alami" required />
+  <!-- BENEFITS -->
+  <section class="benefits section" id="benefits">
+    <div class="container text-center">
+      <span class="section-label reveal">Pourquoi choisir le PL-26</span>
+      <h2 class="section-title reveal reveal-delay-1">Idéal pour vos créations</h2>
+      <p class="section-sub mx-auto reveal reveal-delay-2">Un éclairage professionnel compact et polyvalent pour tous vos contenus.</p>
+      <div class="benefits-grid">
+        <div class="benefit-card reveal reveal-delay-2">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+          </div>
+          <h3>Luminosité Réglable</h3>
+          <p>Ajustez l'intensité selon votre environnement pour un rendu parfait à chaque prise.</p>
         </div>
-        <div class="form-group">
-          <label>Numéro de téléphone *</label>
-          <input type="tel" name="telephone" placeholder="Ex: 0612345678" required />
+        <div class="benefit-card reveal reveal-delay-3">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+          </div>
+          <h3>Qualité Pro</h3>
+          <p>Idéal pour shooting produit, portraits, maquillage et contenu e-commerce impeccable.</p>
         </div>
-        <div class="form-group">
-          <label>Ville *</label>
-          <input type="text" name="ville" placeholder="Ex: Casablanca" required />
+        <div class="benefit-card reveal reveal-delay-4">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Compact & Transportable</h3>
+          <p>Format 22,8 × 15,8 × 2,8 cm. Alimentation DC 5V. Facile à emporter partout.</p>
         </div>
-        <div class="form-group">
-          <label>Adresse complète *</label>
-          <input type="text" name="adresse" placeholder="Quartier, rue, numéro..." required />
+      </div>
+    </div>
+  </section>
+
+  <!-- BEFORE / AFTER -->
+  <section class="before-after section" id="before-after">
+    <div class="container text-center">
+      <span class="section-label reveal">Voir la différence</span>
+      <h2 class="section-title reveal reveal-delay-1">Avant & Après</h2>
+      <p class="section-sub mx-auto reveal reveal-delay-2">Découvrez la différence qu'un éclairage professionnel apporte.</p>
+      <div class="comparison-wrap reveal reveal-delay-3">
+        <img src="Firefly_gpt-image (4).png" alt="Avec le panneau LED PL-26" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features section" id="features">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label reveal">Caractéristiques</span>
+        <h2 class="section-title reveal reveal-delay-1">Panneau LED PL-26</h2>
+        <p class="section-sub mx-auto reveal reveal-delay-2">Réf. OD716235034 · Dimensions : 22,8 × 15,8 × 2,8 cm · Alimentation DC 5V</p>
+      </div>
+      <div class="features-grid">
+        <div class="features-image reveal">
+          <img src="tgp-20260515-141223-plUI3qtW.webp" alt="Panneau LED PL-26" loading="lazy" />
         </div>
-        <button type="submit" class="btn" id="submitBtn">✅ Confirmer ma commande — 149 Dh</button>
-        <div class="success-msg" id="successMsg">🎉 Commande envoyée ! On vous appelle sous 24h pour confirmer.</div>
-        <div class="error-msg" id="errorMsg">❌ Erreur d'envoi. Contactez-nous sur WhatsApp.</div>
-      </form>
-      <a href="https://wa.me/212XXXXXXXXX?text=Je veux commander le Panneau LED PL-26" class="whatsapp-btn" target="_blank">💬 Commander via WhatsApp</a>
+        <div class="features-list">
+          <div class="feature-item reveal">
+            <div class="feature-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg></div>
+            <div><h4>Luminosité Réglable</h4><p>Ajustez facilement l'intensité lumineuse pour vous adapter à toutes les situations de prise de vue.</p></div>
+          </div>
+          <div class="feature-item reveal">
+            <div class="feature-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.5 4h-5L7 7H4a2 2 0 00-2 2v9a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg></div>
+            <div><h4>Pour TikTok, Reels & Lives</h4><p>Optimisé pour la création de contenu court, le live streaming, les portraits et le maquillage.</p></div>
+          </div>
+          <div class="feature-item reveal">
+            <div class="feature-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+            <div><h4>Format Compact</h4><p>22,8 × 15,8 × 2,8 cm. Alimentation DC 5V. Se branche sur port USB, parfait pour le studio ou nomade.</p></div>
+          </div>
+          <div class="feature-item reveal">
+            <div class="feature-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg></div>
+            <div><h4>Usage Polyvalent</h4><p>Shooting produit, portraits, e-commerce, YouTube, Instagram — un outil essentiel pour tout créateur.</p></div>
+          </div>
+          <div class="feature-item reveal">
+            <div class="feature-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+            <div><h4>Prêt à l'Emploi</h4><p>Livré avec accessoires selon modèle. Note : le trépied/support n'est pas inclus.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery section" id="gallery">
+    <div class="container text-center">
+      <span class="section-label reveal">Galerie</span>
+      <h2 class="section-title reveal reveal-delay-1">Voir le produit</h2>
+      <p class="section-sub mx-auto reveal reveal-delay-2">Explorez chaque angle du panneau LED PL-26.</p>
+      <div class="gallery-main reveal reveal-delay-3" id="galleryMain">
+        <img id="galleryImg" src="tgp-20260515-141017-RejMeeBG.webp" alt="Panneau LED PL-26" />
+        <div class="gallery-arrows">
+          <button id="galleryPrev" aria-label="Previous">‹</button>
+          <button id="galleryNext" aria-label="Next">›</button>
+        </div>
+      </div>
+      <div class="gallery-nav" id="galleryNav">
+        <button class="active"><img src="tgp-20260515-141017-RejMeeBG.webp" alt="Product view 1" /></button>
+        <button><img src="tgp-20260515-141223-plUI3qtW.webp" alt="Product view 2" /></button>
+        <button><img src="tgp-20260515-141012-kEIkbqaB (1).webp" alt="Product view 3" /></button>
+        <button><img src="tgp-20260515-141014-DFC7T7Gm.webp" alt="Product view 4" /></button>
+        <button><img src="tgp-20260515-141009-TjomksIb.webp" alt="Product view 5" /></button>
+      </div>
     </div>
   </section>
 
   <!-- FAQ -->
-  <section class="faq">
-    <h2>Questions fréquentes</h2>
-    <div class="faq-item"><h4>C'est quoi le mode de paiement ?</h4><p>Paiement à la livraison uniquement. Vous payez quand vous recevez le colis.</p></div>
-    <div class="faq-item"><h4>Délai de livraison ?</h4><p>2 à 4 jours ouvrables partout au Maroc.</p></div>
-    <div class="faq-item"><h4>Qu'est-ce qui est inclus dans la boîte ?</h4><p>Le panneau LED PL-26, câble USB, et support réglable.</p></div>
-    <div class="faq-item"><h4>Est-ce que je peux retourner le produit ?</h4><p>Oui, 7 jours satisfait ou remboursé si le produit est en bon état.</p></div>
+  <section class="faq section" id="faq">
+    <div class="container text-center">
+      <span class="section-label reveal">FAQ</span>
+      <h2 class="section-title reveal reveal-delay-1">Questions Fréquentes</h2>
+      <p class="section-sub mx-auto reveal reveal-delay-2">Tout ce que vous devez savoir sur le panneau LED PL-26.</p>
+      <div class="faq-list reveal reveal-delay-3">
+        <div class="faq-item active">
+          <button class="faq-question">
+            Quels accessoires sont inclus avec le panneau LED ?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer"><p>Le panneau LED PL-26 est livré avec ses accessoires selon le modèle. Veuillez noter que le trépied ou support n'est pas inclus. Consultez la fiche produit pour le détail exact des accessoires fournis.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Comment alimenter le panneau LED ?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer"><p>Le panneau fonctionne en DC 5V et se branche sur n'importe quel port USB — ordinateur, adaptateur secteur, batterie externe. Il est prêt à l'emploi, branchez et utilisez.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Puis-je régler la couleur et l'intensité ?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer"><p>Oui ! Le PL-26 propose deux modes de lumière : blanc pour un éclairage naturel et jaune pour une ambiance chaude. La luminosité est réglable pour s'adapter à tous vos besoins créatifs.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Pour quel type de contenu est-il adapté ?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer"><p>Idéal pour le shooting produit, les portraits, le maquillage, les lives TikTok, Instagram Reels, YouTube, la création e-commerce et tout contenu nécessitant un éclairage professionnel.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Quels sont les délais de livraison et la garantie ?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer"><p>Livraison rapide partout au Maroc (30 Dh). Paiement à la livraison disponible. Garantie 7 jours satisfait ou remboursé. Commandez en toute sérénité.</p></div>
+        </div>
+      </div>
+    </div>
   </section>
 
+  <!-- ORDER -->
+  <section class="order section" id="order">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label reveal">Commander</span>
+        <h2 class="section-title reveal reveal-delay-1">Commandez votre Panneau LED PL-26</h2>
+        <p class="section-sub mx-auto reveal reveal-delay-2">Paiement à la livraison · Garantie 7 jours · Livraison : 30 Dh au Maroc</p>
+      </div>
+      <div class="order-wrap">
+        <div class="order-info reveal">
+          <h3>Pourquoi commander ici ?</h3>
+          <p>Prix imbattable, expédition rapide et support prioritaire. Réf. <strong>OD716235034</strong> — <span style="color:var(--accent-light);font-weight:600;">149,00 Dh</span> <span style="color:var(--text-muted);text-decoration:line-through;font-size:0.9rem;">169,00 Dh</span></p>
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:16px;color:#22c55e;font-weight:500;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="6"/></svg>
+            <span>4 en stock — Commandez vite !</span>
+          </div>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Paiement à la livraison (Cash on Delivery)</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Garantie 7 jours satisfait ou remboursé</li>
+             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Livraison : 30 Dh</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Expédition rapide partout au Maroc</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Support client 24/7</li>
+          </ul>
+          <div style="margin-top:16px;padding:12px 16px;border:1px solid rgba(239,68,68,0.2);background:rgba(239,68,68,0.05);border-radius:10px;font-size:0.85rem;color:var(--text-secondary);">
+            <strong style="color:#ef4444;">⚠ Note :</strong> Le trépied / support n'est pas inclus. Le panneau est livré avec ses accessoires selon le modèle.
+          </div>
+        </div>
+        <div class="order-form reveal reveal-delay-1" id="orderForm">
+          <h3>Passez votre commande</h3>
+          <form id="orderFormElement" novalidate>
+            <div class="form-group">
+              <label for="name">Nom complet *</label>
+              <input type="text" id="name" name="name" placeholder="Votre nom complet" required autocomplete="name" />
+              <span class="error-msg">Veuillez entrer votre nom complet</span>
+            </div>
+            <div class="form-group">
+              <label for="phone">Téléphone *</label>
+              <input type="tel" id="phone" name="phone" placeholder="+212 6XX-XXXXXX" required autocomplete="tel" />
+              <span class="error-msg">Veuillez entrer un numéro valide</span>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="city">Ville *</label>
+                <input type="text" id="city" name="city" placeholder="Casablanca" required />
+                <span class="error-msg">Veuillez entrer votre ville</span>
+              </div>
+              <div class="form-group">
+                <label for="quantity">Quantité *</label>
+                <input type="number" id="quantity" name="quantity" value="1" min="1" max="99" required />
+                <span class="error-msg">Veuillez entrer une quantité valide</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="address">Adresse de livraison *</label>
+              <input type="text" id="address" name="address" placeholder="Rue, quartier, immeuble, étage..." required autocomplete="street-address" />
+              <span class="error-msg">Veuillez entrer votre adresse</span>
+            </div>
+            <button type="submit" class="btn-primary" id="orderSubmit">
+              <span class="btn-text">Commander — 149 Dh</span>
+              <span class="spinner"></span>
+            </button>
+          </form>
+          <div class="success-msg" id="successMsg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <h3>Commande envoyée ! 🎉</h3>
+            <p>Merci ! Nous vous contacterons sous 24h pour confirmer votre commande. Vous serez livré rapidement.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Panneau LED PL-26. Tous droits réservés.</p>
+      <div class="footer-links">
+        <a href="#hero">Accueil</a>
+        <a href="#features">Caractéristiques</a>
+        <a href="#faq">FAQ</a>
+        <a href="#order">Commander</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/1234567890?text=Bonjour%2C%20je%20souhaite%20commander%20le%20panneau%20LED%20PL-26." target="_blank" rel="noopener noreferrer" class="wa-float" id="waFloat" aria-label="Discuter sur WhatsApp">
+    <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- STICKY MOBILE CTA -->
+  <div class="sticky-cta" id="stickyCta">
+    <div class="container">
+      <span class="sticky-price">149 Dh <small>+ Livraison 30 Dh</small></span>
+      <a href="#order" class="btn-primary">Commander</a>
+    </div>
+  </div>
+
   <script>
-    // ============================================================
-    // REMPLACER PAR VOTRE WEB APP URL APRES DEPLOIEMENT APPS SCRIPT
-    // ============================================================
-    const SCRIPT_URL = 'PASTE_YOUR_WEB_APP_URL_HERE';
-
-    const form = document.getElementById('orderForm');
-    const btn = document.getElementById('submitBtn');
-    const successMsg = document.getElementById('successMsg');
-    const errorMsg = document.getElementById('errorMsg');
-
-    form.addEventListener('submit', async function(e) {
-      e.preventDefault();
-
-      btn.disabled = true;
-      btn.textContent = 'Envoi en cours...';
-      successMsg.style.display = 'none';
-      errorMsg.style.display = 'none';
-
-      const payload = {
-        nom: form.nom.value.trim(),
-        telephone: form.telephone.value.trim(),
-        ville: form.ville.value.trim(),
-        adresse: form.adresse.value.trim(),
-        produit: 'Panneau LED PL-26',
-        prix: '149',
-        source: 'landing-page'
-      };
-
-      try {
-        const res = await fetch(SCRIPT_URL, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload)
-        });
-        const data = await res.json();
-        if (data.success) {
-          successMsg.style.display = 'block';
-          form.reset();
-        } else {
-          errorMsg.style.display = 'block';
-        }
-      } catch (err) {
-        errorMsg.style.display = 'block';
-      } finally {
-        btn.disabled = false;
-        btn.textContent = '✅ Confirmer ma commande — 149 Dh';
-      }
+    /* ===== LOADER ===== */
+    window.addEventListener('load', () => {
+      document.getElementById('loader').classList.add('hidden');
     });
-  </script>
 
+    /* ===== HEADER SCROLL ===== */
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    /* ===== SMOOTH SCROLL (anchor links) ===== */
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(anchor.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+
+    /* ===== SCROLL REVEAL (Intersection Observer) ===== */
+    const revealObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+    /* ===== GALLERY CAROUSEL ===== */
+    (function() {
+      const images = [
+        'tgp-20260515-141017-RejMeeBG.webp',
+        'tgp-20260515-141223-plUI3qtW.webp',
+        'tgp-20260515-141012-kEIkbqaB (1).webp',
+        'tgp-20260515-141014-DFC7T7Gm.webp',
+        'tgp-20260515-141009-TjomksIb.webp'
+      ];
+      const imgEl = document.getElementById('galleryImg');
+      const navBtns = document.querySelectorAll('#galleryNav button');
+      const prevBtn = document.getElementById('galleryPrev');
+      const nextBtn = document.getElementById('galleryNext');
+      let current = 0;
+
+      function show(idx) {
+        current = (idx + images.length) % images.length;
+        imgEl.style.opacity = '0';
+        setTimeout(() => {
+          imgEl.src = images[current];
+          imgEl.style.opacity = '1';
+        }, 200);
+        navBtns.forEach((btn, i) => btn.classList.toggle('active', i === current));
+      }
+
+      navBtns.forEach((btn, i) => {
+        btn.addEventListener('click', () => show(i));
+      });
+      prevBtn.addEventListener('click', () => show(current - 1));
+      nextBtn.addEventListener('click', () => show(current + 1));
+
+      imgEl.style.transition = 'opacity 0.3s ease';
+
+      // Touch swipe support for mobile
+      (function() {
+        const main = document.getElementById('galleryMain');
+        let sx = 0, ex = 0;
+        main.addEventListener('touchstart', e => { sx = e.touches[0].clientX; }, { passive: true });
+        main.addEventListener('touchend', e => {
+          ex = e.changedTouches[0].clientX;
+          const diff = sx - ex;
+          if (Math.abs(diff) > 50) {
+            diff > 0 ? show(current + 1) : show(current - 1);
+          }
+        }, { passive: true });
+      })();
+    })();
+
+    /* ===== FAQ ACCORDION ===== */
+    (function() {
+      const items = document.querySelectorAll('.faq-item');
+      items.forEach(item => {
+        const btn = item.querySelector('.faq-question');
+        btn.addEventListener('click', () => {
+          const isOpen = item.classList.contains('active');
+          items.forEach(i => i.classList.remove('active'));
+          if (!isOpen) item.classList.add('active');
+        });
+      });
+    })();
+
+    /* ===== ORDER FORM ===== */
+    (function() {
+      const form = document.getElementById('orderFormElement');
+      const submitBtn = document.getElementById('orderSubmit');
+      const successMsg = document.getElementById('successMsg');
+      const formEl = document.getElementById('orderForm');
+
+      // Phone validation: allows +, digits, spaces, dashes, parentheses
+      const phoneRegex = /^[\+\d\s\-\(\)]{7,20}$/;
+
+      function validateField(input) {
+        const group = input.closest('.form-group');
+        const error = group.querySelector('.error-msg');
+        let valid = true;
+
+        if (input.hasAttribute('required') && !input.value.trim()) {
+          valid = false;
+        }
+        if (input.id === 'phone' && !phoneRegex.test(input.value.trim())) {
+          valid = false;
+        }
+        if (input.id === 'quantity') {
+          const qty = parseInt(input.value);
+          if (isNaN(qty) || qty < 1 || qty > 99) valid = false;
+        }
+
+        group.classList.toggle('error', !valid);
+        input.classList.toggle('error', !valid);
+        return valid;
+      }
+
+      // Real-time validation on blur
+      form.querySelectorAll('input[required]').forEach(input => {
+        input.addEventListener('blur', () => validateField(input));
+        input.addEventListener('input', () => {
+          const group = input.closest('.form-group');
+          if (group.classList.contains('error')) validateField(input);
+        });
+      });
+
+      form.addEventListener('submit', async e => {
+        e.preventDefault();
+        const inputs = form.querySelectorAll('input[required]');
+        let allValid = true;
+
+        inputs.forEach(input => {
+          if (!validateField(input)) allValid = false;
+        });
+
+        if (!allValid) return;
+
+        submitBtn.disabled = true;
+        submitBtn.classList.add('loading');
+
+        const data = {};
+        inputs.forEach(input => { data[input.name] = input.value.trim(); });
+        // Add date/time
+        data.date = new Date().toLocaleString('en-US', {
+          year: 'numeric', month: '2-digit', day: '2-digit',
+          hour: '2-digit', minute: '2-digit', second: '2-digit'
+        });
+
+        const url = 'https://script.google.com/macros/s/AKfycbw-1o7bx1e8tJFIpyHNwJshHOgM4jZVmQUrW0yL7MIAGUJEM8Z6jkVOTIdLtPCepMe1/exec';
+
+        try {
+          const res = await fetch(url, {
+            method: 'POST',
+            redirect: 'follow',
+            headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+            body: JSON.stringify({
+              nom: data.name,
+              telephone: data.phone,
+              ville: data.city,
+              adresse: data.address,
+              quantite: data.quantity,
+              produit: 'Panneau LED PL-26',
+              prix: '149',
+              source: 'landing-page',
+              date: data.date
+            })
+          });
+
+          const result = await res.json();
+
+          if (result.success) {
+            submitBtn.classList.remove('loading');
+            form.style.display = 'none';
+            successMsg.classList.add('show');
+            form.reset();
+          } else {
+            throw new Error(result.message || 'Erreur serveur');
+          }
+        } catch (err) {
+          submitBtn.classList.remove('loading');
+          submitBtn.disabled = false;
+          const errorEl = document.createElement('p');
+          errorEl.className = 'error-msg';
+          errorEl.style.display = 'block';
+          errorEl.textContent = 'Erreur lors de l\'envoi. Veuillez réessayer ou nous contacter sur WhatsApp.';
+          form.appendChild(errorEl);
+          console.error('Order submission error:', err);
+        }
+      });
+    })();
+
+    /* ===== WHATSAPP NUMBER PLACEHOLDER ===== */
+    // Replace the number in the href below with your actual WhatsApp number
+    // waFloat.href = "https://wa.me/YOUR_NUMBER?text=Bonjour%2C%20je%20souhaite%20commander%20le%20panneau%20LED%20PL-26.";
+
+    console.log('Panneau LED PL-26 — Page chargée');
+  </script>
 </body>
 </html>
