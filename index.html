@@ -962,13 +962,13 @@
           hour: '2-digit', minute: '2-digit', second: '2-digit'
         });
 
-        const url = 'https://script.google.com/macros/s/AKfycbw-1o7bx1e8tJFIpyHNwJshHOgM4jZVmQUrW0yL7MIAGUJEM8Z6jkVOTIdLtPCepMe1/exec';
+                const url = 'https://script.google.com/macros/s/AKfycbw2BDOPS50SrfhtWwnPdB7xPM6psCOvWgfGTFw7QkT4uH3jUhIccBbdYaU0lugWqwHE/exec';
 
         try {
           const res = await fetch(url, {
             method: 'POST',
             redirect: 'follow',
-            headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+                        headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
               nom: data.name,
               telephone: data.phone,
